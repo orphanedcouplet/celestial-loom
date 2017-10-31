@@ -17,7 +17,7 @@ app.config["DEBUG"] = True
 
 @app.route("/", methods=["POST", "GET"])
 def show_page():
-    page_title = "Fellowship of the Incarnate Divine"
+    page_title = "The Celestial Loom"
     return render_template("index.html", page_title=page_title)
 
 if __name__ == "__main__":
